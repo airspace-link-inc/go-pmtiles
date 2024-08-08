@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/airspace-link-inc/go-pmtiles/pmtiles"
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
 	"github.com/caddyserver/caddy/v2/caddyconfig/httpcaddyfile"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
-	"github.com/protomaps/go-pmtiles/pmtiles"
 	"go.uber.org/zap"
 	_ "gocloud.dev/blob/azureblob"
 	_ "gocloud.dev/blob/fileblob"

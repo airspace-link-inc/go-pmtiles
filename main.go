@@ -10,10 +10,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/airspace-link-inc/go-pmtiles/pmtiles"
 	"github.com/alecthomas/kong"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-
-	"github.com/protomaps/go-pmtiles/pmtiles"
 	_ "gocloud.dev/blob/azureblob"
 	_ "gocloud.dev/blob/fileblob"
 	_ "gocloud.dev/blob/gcsblob"

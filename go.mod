@@ -1,4 +1,4 @@
-module github.com/protomaps/go-pmtiles
+module github.com/airspace-link-inc/go-pmtiles
 
 go 1.21.0
 
